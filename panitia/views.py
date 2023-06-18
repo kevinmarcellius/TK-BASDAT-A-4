@@ -98,3 +98,4 @@ def show_buat_peristiwa(request):
         "sisa_waktu": 600
     }
     return render(request, "buatPeristiwa.html", context)
+
