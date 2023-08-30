@@ -1,61 +1,29 @@
-# Template Proyek Django PBP
+# Babadu
+## Deskripsi
 
-Pemrograman Berbasis Platform (CSGE602022) - diselenggarakan oleh Fakultas Ilmu Komputer Universitas Indonesia, Semester Ganjil 2022/2023
+Babadu adalah aplikasi turnamen sepak bola universitas yang dikembangkan sebagai bagian dari proyek kelompok untuk mata kuliah Basis Data. Aplikasi ini mencakup tiga peran pengguna yang berbeda: manajer tim, penyelenggara pertandingan, dan penonton. Pengguna diharuskan memilih salah satu dari peran ini selama proses pembuatan akun. Proyek ini dikembangkan menggunakan kerangka kerja Django,
 
-*Read this in other languages: [Indonesian](README.md), [English](README.en.md)*
+## User Manual Guide
+User manual guide dapat diakses di link ini : [Guide](https://github.com/kevinmarcellius/TK-BASDAT-A-4/blob/main/Babadu_User%20Manual.pdf)
 
-## Pendahuluan
+## Role Pengguna
+* Manajer
 
-Repositori ini merupakan sebuah template yang dirancang untuk membantu mahasiswa yang sedang mengambil mata kuliah Pemrograman Berbasis Platform (CSGE602022) mengetahui struktur sebuah proyek aplikasi Django serta file dan konfigurasi yang penting dalam berjalannya aplikasi. Kamu dapat dengan bebas menyalin isi dari repositori ini atau memanfaatkan repositori ini sebagai pembelajaran sekaligus awalan dalam membuat sebuah proyek Django.
+  Manajer dapat mendaftarkan tim, menambahkan pemain dan pelatih, mengeluarkan pemain dan pelatih dari tim, meminjam stadium, melihat histori rapat
 
-## Cara Menggunakan
+* Penonton
 
-Apabila kamu ingin menggunakan repositori ini sebagai repositori awalan yang nantinya akan kamu modifikasi:
+  Penonton dapat melihat daftar pertandingan, membeli tiket pertandingan
+* Panitia
 
-1. Buka laman GitHub repositori templat kode, lalu klik tombol "**Use this template**"
-   untuk membuat salinan repositori ke dalam akun GitHub milikmu.
-2. Buka laman GitHub repositori yang dibuat dari templat, lalu gunakan perintah
-   `git clone` untuk menyalin repositorinya ke suatu lokasi di dalam sistem
-   berkas (_filesystem_) komputermu:
+  Panitia dapat mengelola pertandingan, membuat pertandingan, memulai pertandingan, memulai rapat, 
 
-   ```shell
-   git clone <URL ke repositori di GitHub> <path ke suatu lokasi di filesystem>
-   ```
-3. Masuk ke dalam repositori yang sudah di-_clone_ dan jalankan perintah berikut
-   untuk menyalakan _virtual environment_:
+## Anggota
+- 2106706193 - Kevin Marcellius Alrino
+- 2106638495 - Ramanti Prajna Pratisthita
+- 2106720903 - Julian Justin Orvino
+- 2006483025 - Muhammad Farrel Sava Archini
 
-   ```shell
-   python -m venv env
-   ```
-4. Nyalakan environment dengan perintah berikut:
-
-   ```shell
-   # Windows
-   .\env\Scripts\activate
-   # Linux/Unix, e.g. Ubuntu, MacOS
-   source env/bin/activate
-   ```
-5. Install dependencies yang dibutuhkan untuk menjalankan aplikasi dengan perintah berikut:
-
-   ```shell
-   pip install -r requirements.txt
-   ```
-
-6. Jalankan aplikasi Django menggunakan server pengembangan yang berjalan secara
-   lokal:
-
-   ```shell
-   python manage.py runserver
-   ```
-7. Bukalah `http://localhost:8000` pada browser favoritmu untuk melihat apakah aplikasi sudah berjalan dengan benar.
-
-## Contoh Deployment 
-
-Pada template ini, deployment dilakukan dengan memanfaatkan GitHub Actions sebagai _runner_ dan Heroku sebagai platform Hosting aplikasi. 
-
-Untuk melakukan deployment, kamu dapat melihat instruksi yang ada pada [Tutorial 0](https://pbp-fasilkom-ui.github.io/ganjil-2023/assignments/tutorial/tutorial-0).
-
-Untuk contoh aplikasi Django yang sudah di deploy, dapat kamu akses di [https://django-pbp-template.herokuapp.com/](https://django-pbp-template.herokuapp.com/)
 
 ## Credits
 
